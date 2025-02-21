@@ -24,8 +24,15 @@ pnpm-lock.yaml
 # Build output
 dist
 dist-ssr
-*.local
 build
+out
+.output
+*.local
+
+# Production
+/build
+/dist
+/out
 
 # Environment files
 .env
@@ -53,3 +60,15 @@ coverage
 # Misc
 .cache
 .temp
+
+# Firebase
+.firebase/
+firebase-debug.log*
+firebase-debug.*.log*
+.firebaserc
+ui-debug.log*
+database-debug.log*
+pubsub-debug.log*
+.runtimeconfig.json
+*-service-account.json
+.firebase-emulator-data/
