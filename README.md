@@ -1,6 +1,6 @@
 # Bitcoin Price Forecaster
 
-This is a basic crypto UI that shows bitcoin prices and like a good fortune teller tells you the future and what to do on any future time interval, you can change the prediction strategy and see theoretically how much you would gain/loss on the specific time interval. These are just predictions and should be treated as such.
+This is a basic crypto UI that shows bitcoin prices and like a good fortune teller tells you the future and what to do on any future time interval, you can change the prediction strategy and see theoretically how much you would gain/lose on the specific time interval. These are just predictions and should be treated as such.
 
 ## Features
 
