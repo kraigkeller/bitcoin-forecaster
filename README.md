@@ -32,7 +32,11 @@ cd bitcoin-forecaster
 
 2. Install dependencies:
 ```bash
+# Using npm
 npm install
+
+# Using yarn
+yarn install
 ```
 
 3. Create a `.env` file in the root directory:
@@ -42,12 +46,20 @@ VITE_COINGECKO_API_KEY=your_api_key_here  # Optional
 
 4. Start the development server:
 ```bash
+# Using npm
 npm run dev
+
+# Using yarn
+yarn dev
 ```
 
 5. Build for production:
 ```bash
+# Using npm
 npm run build
+
+# Using yarn
+yarn build
 ```
 
 ## Project Structure
