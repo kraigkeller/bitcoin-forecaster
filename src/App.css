@@ -1,0 +1,62 @@
+:root,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --app-bg-dark: #222222;
+    --app-bg-light: #FAFAFA;
+}
+
+@media (prefers-color-scheme: dark) {
+    .app {
+        background-color: var(--app-bg-dark);
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    .app {
+        background-color: var(--app-bg-light);
+    }
+}
+
+.app {
+    min-height: 100vh;
+    padding: 20px 0;
+    transition: background-color 0.3s ease;
+}
+
+.app * {
+    transition: all 0.2s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.app > * {
+    animation: fadeIn 0.5s ease-out;
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 0.6;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.2);
+    }
+    100% {
+        opacity: 0.6;
+        transform: scale(1);
+    }
+}
